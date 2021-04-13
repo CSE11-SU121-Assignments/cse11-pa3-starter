@@ -9,6 +9,12 @@ Different assignments in this course have different collaboration policies. On t
 
 We’ve added a file called ```CREDITS.txt``` for you to write these credits into.
 
+## Resubmission/Late Policy
+- We will not accept this PA late.
+- If you did not submit this PA or did poorly (<75%), you can fix your PA and resubmit it to the PA resubsmission assignment in Gradescope to earn a maximum of 75% the points.
+- If you scored higher than 75% on the origianl PA, we may grade the resubmission, but will not change your original grade.
+- The resubmission will be open for 2 weeks after the PA's original due date.
+
 ## Drill 1 (autograded)
 Write three classes as described below. They do not need to have any methods or constructors. Save them in the file ```Drill1.java```.
 
@@ -65,7 +71,7 @@ In a file called ```Drill4.java```, write a class ```Drill4``` with the followin
 - ```maxDifference``` which takes three ```ints``` and returns the largest absolute difference between any two of them. For example, ```maxDifference``` applied to 1, -1, and 5 should return 6 because the difference between -1 and 5 is 6 which is greater than 2 or 4 (the differences between -1 and 1, and between 1 and 5). 
 - ```ringArea``` which takes two ```double```s representing the radius of an inner circle and an outer circle, and returns the area of the ring between them as a ```double```. Assume both inputs are positive and that the first number is smaller than the second. Recall that the area of a circle is πr<sup>2</sup>. You can use ```Math.PI```, a field conveniently defined for us by Java, as a constant for the value of π.
 
-In addition, you must write at least three interesting tests for **each** method above, and include the expected values. You can test them in the same way as we did in class and previous two PAs. You can use the tester package if you want, but we’re not grading for it. PA4 we will explicitly require it in some cases to make sure everyone gets practice with it.
+In addition, you must write at least three interesting tests for **each** method above, and include the expected values. You can test them in the same way as we did in class and previous two PAs. You can use the tester package if you want, but we’re not grading for it. In PA4 we will explicitly require it in some cases to make sure everyone gets practice with it.
 
 
 
@@ -78,9 +84,9 @@ Consider the following statements about Java programs:
 
 For each, write a small Java program that demonstrates whether it is true or false. Put them in the files ```Open1A.java```, ```Open1B.java```, and ```Open1C.java```.
 
-To show that a statement is true, write a Java program that matches the statement, doesn’t produce an error when run, and produces some meaningful output when ```./run```. This means you may want to include an ```Examples``` class with some instances of the classes you create to demonstrate this.
+To show that a statement is true, write a Java program that matches the statement, doesn’t produce an error when run, and produces some meaningful output when ```./run```. To demonstrate this, make an ```Examples``` class in the file ```Examples.java``` with some instances of the classes you create.
 
-To show that a statement is false, write a Java program that matches the statement and produces an error when run, demonstrating that Java programs cannot do what the property says.
+To show that a statement is false, write a Java program that matches the statement and produces an error when run, demonstrating that Java programs cannot do what the property says. Similar to above, you can use ```Examples.java``` to demonstrate this.
 
 Include both the program and the output of running the program without error as your submission; you can upload screenshots as images clearly named with ```Open1A```, ```Open1B```, etc in the title, or copy-paste the text output into a comment in your code.
 
