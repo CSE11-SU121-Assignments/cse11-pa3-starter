@@ -47,7 +47,7 @@ Then add a class definition called ```Drill2``` with the following fields:
 - A field named ```third``` of type ```C1```. It’s value should be a reference to a ```C1``` object with its ```other``` field the same ```C2``` object as the one stored in the ```first``` field.
 
 ## Drill 3 (autograded)
-In the file ```Drill3.java```, write a class called ```TextTweet``` that has two fields: one field called ```contents``` of type ```String```, and one field called ```likes``` of type ```int```. Give it a default constructor of two arguments that initializes those fields. In it, write the following methods:
+In the file ```Drill3.java```, write a class called ```TextTweet``` that has two fields: one field called ```contents``` of type ```String```, and one field called ```likes``` of type ```int```. Give it a constructor of two arguments that initializes those fields. In it, write the following methods:
 
 - ```hasMention``` which takes a ```String``` called ```username``` and checks if the string ```@``` followed by that username apppears in the Tweet contents, returning ```true``` if it does and ```false``` otherwise.
 - ```hasLike``` which takes no arguments and returns ```true``` if the tweet one or more likes, ```false``` otherwise.
@@ -55,7 +55,7 @@ In the file ```Drill3.java```, write a class called ```TextTweet``` that has two
 
 (You may find some String methods in the [Java documentation](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html#method.summary) useful)
 
-Also in ```Drill3.java```, write a class called ```ReplyTweet``` that has three fields: one called ```replyTo``` of type ```TextTweet```, one called ```contents``` of type ```String```, and one called ```likes``` of type ```int```. Give it a default constructor that initializes these fields. In it, write the following methods:
+Also in ```Drill3.java```, write a class called ```ReplyTweet``` that has three fields: one called ```replyTo``` of type ```TextTweet```, one called ```contents``` of type ```String```, and one called ```likes``` of type ```int```. Give it a constructor of three arguments that initializes these fields. In it, write the following methods:
 
 - ```morePopularReply``` which takes no arguments and returns true if this ReplyTweet has more likes than the TextTweet it is replying to
 - ```allLikes``` which takes no arguments and returns the sum of the likes on this ReplyTweet and on the TextTweet it is replying to
