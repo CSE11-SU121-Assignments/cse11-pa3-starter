@@ -51,7 +51,7 @@ In the file ```Drill3.java```, write a class called ```TextTweet``` that has two
 
 - ```hasMention``` which takes a ```String``` called ```username``` and checks if the string ```@``` followed by that username apppears in the Tweet contents, returning ```true``` if it does and ```false``` otherwise.
 - ```hasLike``` which takes no arguments and returns ```true``` if the tweet one or more likes, ```false``` otherwise.
-- ```firstMention``` which takes no arguments and returns a ```String``` containing the substring between the first appearance of the ```@``` character in the ```contents``` and the first space character after that. If there is no space after the ```@```, or if there’s no ```@,``` the empty string ```""``` should be returned.
+- ```firstMention``` which takes no arguments and returns a ```String``` containing the substring between the first appearance of the ```@``` character in the ```contents``` and the first space character after that. If there is no space after the ```@```, or if there’s no ```@```, the empty string ```""``` should be returned.
 
 (You may find some String methods in the [Java documentation](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html#method.summary) useful)
 
