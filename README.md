@@ -51,7 +51,7 @@ In the file ```Drill3.java```, write a class called ```TextTweet``` that has two
 
 - ```hasMention``` which takes a ```String``` called ```username``` and checks if the string ```@``` followed by that username apppears in the Tweet contents, returning ```true``` if it does and ```false``` otherwise. (There are some interesting cases for this method. For example, to check if we have the username “dummy” in “@dummy1 @dummy2”, hasMention() should return false in this case because username dummy1 and dummy2 is not the same as dummy, while “hello @dummy world” and “CSE 11 is a cool class @dummy” should return true)
 - ```hasLike``` which takes no arguments and returns ```true``` if the tweet one or more likes, ```false``` otherwise.
-- ```firstMention``` which takes no arguments and returns a ```String``` containing the substring between the first appearance of the ```@``` character in the ```contents``` and the first space character after that. If there is no space after the ```@```, or if there’s no ```@```, the empty string ```""``` should be returned.
+- ```firstMention``` which takes no arguments and returns a ```String``` containing the substring between the first appearance of the ```@``` character in the ```contents``` and the first space character after that. Do not include the ```@``` character and the space character. If there is no space after the ```@```, or if there’s no ```@```, the empty string ```""``` should be returned.
 
 (You may find some String methods in the [Java documentation](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/String.html#method.summary) useful)
 
@@ -82,7 +82,7 @@ Consider the following statements about Java programs:
 - **Statement B**: In Java, one class can define two fields with the same name as long as they have different types.
 - **Statement C**: In Java, two different methods in the same class can have the same parameter name, and arguments passed to one of those methods don’t affect the parameter in the other.
 
-For each statement, write a small Java program that demonstrates whether it is true or false. In the programs you should define some classes that reflect the statements. You can choose whatever names you want for the classes. Put the class definitions in the files ```Open1A.java```, ```Open1B.java```, and ```Open1C.java```. Inside the files, you should also include a separate ```Open1A```/```Open1B```/```Open1C``` class with some instances of the classes you just create.
+For each statement, write a small Java program that demonstrates whether it is true or false. In the programs you should define some classes that reflect the statements. You can choose whatever names you want for the classes. Put the class definitions in the files ```Open1A.java```, ```Open1B.java```, and ```Open1C.java```. Inside the files, you should also include an ```Open1A```/```Open1B```/```Open1C``` class with some instances of the classes you just create.
 
 To show that a statement is true, write a Java program that matches the statement, doesn’t produce an error when run, and produces some meaningful output when ```./run```.
 
