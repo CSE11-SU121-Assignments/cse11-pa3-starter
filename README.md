@@ -82,11 +82,11 @@ Consider the following statements about Java programs:
 - **Statement B**: In Java, one class can define two fields with the same name as long as they have different types.
 - **Statement C**: In Java, two different methods in the same class can have the same parameter name, and arguments passed to one of those methods don’t affect the parameter in the other.
 
-For each, write a small Java program that demonstrates whether it is true or false. Put them in the files ```Open1A.java```, ```Open1B.java```, and ```Open1C.java```.
+For each statement, write a small Java program that demonstrates whether it is true or false. In the programs you should define some classes that reflect the statements. You can choose whatever names you want for the classes. Put the class definitions in the files ```Open1A.java```, ```Open1B.java```, and ```Open1C.java```. Inside the files, you should also include a separate ```Open1A```/```Open1B```/```Open1C``` class with some instances of the classes you just create.
 
-To show that a statement is true, write a Java program that matches the statement, doesn’t produce an error when run, and produces some meaningful output when ```./run```. To demonstrate this, make an ```Examples``` class in the file ```Examples.java``` with some instances of the classes you create.
+To show that a statement is true, write a Java program that matches the statement, doesn’t produce an error when run, and produces some meaningful output when ```./run```.
 
-To show that a statement is false, write a Java program that matches the statement and produces an error when run, demonstrating that Java programs cannot do what the property says. Similar to above, you can use ```Examples.java``` to demonstrate this.
+To show that a statement is false, write a Java program that matches the statement and produces an error when run, demonstrating that Java programs cannot do what the property says.
 
 Include both the program and the output of running the program without error as your submission; you can upload screenshots as images clearly named with ```Open1A```, ```Open1B```, etc in the title, or copy-paste the text output into a comment in your code.
 
