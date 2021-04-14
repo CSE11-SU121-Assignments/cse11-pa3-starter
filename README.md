@@ -91,7 +91,7 @@ To show that a statement is false, write a Java program that matches the stateme
 Include both the program and the output of running the program without error as your submission; you can upload screenshots as images clearly named with ```Open1A```, ```Open1B```, etc in the title, or copy-paste the text output into a comment in your code.
 
 ## Open-Ended 2 (manually graded)
-Create a class named ```R``` that has a field of type ```String``` and a field of type ```R```. Give it a default constructor that initializes both fields. Put the class in a file called ```ExamplesR.java```. Add an ```ExamplesR``` class to this file, and answer the following questions in that file:
+Create a class named ```R``` that has a field of type ```String``` and a field of type ```R```. Give it a constructor that initializes both fields. Put the class in a file called ```ExamplesR.java```. Add an ```ExamplesR``` class to this file, and answer the following questions in that file:
 
 1. Construct an example ```R``` object. Were you able to? Explain your example if you were able to, and explain why you think it’s not possible if you weren’t.
 2. On Twitter, it’s possible to reply to a reply to a Tweet (that’s not a typo, it’s a reply to a reply). This is true of many systems, like email, Facebook comments, Piazza followups, and so on. With the class structure in ```Drill3``` with ```ReplyTweet``` and ```TextTweet``` (that is, without changing the fields as described above), could you construct an example of a reply to a reply to a Tweet? Why or why not?
