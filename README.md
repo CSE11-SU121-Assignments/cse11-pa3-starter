@@ -49,7 +49,7 @@ Then add a class definition called ```Drill2``` with the following fields:
 ## Drill 3 (autograded)
 In the file ```Drill3.java```, write a class called ```TextTweet``` that has two fields: one field called ```contents``` of type ```String```, and one field called ```likes``` of type ```int```. Give it a constructor of two arguments that initializes those fields. In it, write the following methods:
 
-- ```hasMention``` which takes a ```String``` called ```username``` and checks if the string ```@``` followed by that username apppears in the Tweet contents, returning ```true``` if it does and ```false``` otherwise.
+- ```hasMention``` which takes a ```String``` called ```username``` and checks if the string ```@``` followed by that username apppears in the Tweet contents, returning ```true``` if it does and ```false``` otherwise. (There are some interesting cases for this method. For example, to check if we have the username “dummy” in “@dummy1 @dummy2”, hasMention() should return false in this case because username dummy1 and dummy2 is not the same as dummy, while “hello @dummy world” and “CSE 11 is a cool class @dummy” should return true)
 - ```hasLike``` which takes no arguments and returns ```true``` if the tweet one or more likes, ```false``` otherwise.
 - ```firstMention``` which takes no arguments and returns a ```String``` containing the substring between the first appearance of the ```@``` character in the ```contents``` and the first space character after that. If there is no space after the ```@```, or if there’s no ```@```, the empty string ```""``` should be returned.
 
