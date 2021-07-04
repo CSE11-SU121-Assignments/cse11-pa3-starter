@@ -12,8 +12,8 @@ We’ve added a file called ```CREDITS.txt``` for you to write these credits int
 ## Resubmission/Late Policy
 - We will not accept this PA late.
 - If you did not submit this PA or did poorly (<75%), you can fix your PA and resubmit it to the PA resubsmission assignment in Gradescope to earn a maximum of 75% the points.
-- If you scored higher than 75% on the origianl PA, we may grade the resubmission, but will not change your original grade.
-- The resubmission will be open for 2 weeks after the PA's original due date.
+- If you scored higher than 75% on the origianl PA, we will grade the resubmission, but will not change your original grade.
+- The resubmission will be open for 1 weeks after the PA's original due date.
 
 ## Drill 1 (autograded)
 Write three classes as described below. They do not need to have any methods or constructors. Save them in the file ```Drill1.java```.
