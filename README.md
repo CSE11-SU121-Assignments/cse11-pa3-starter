@@ -1,5 +1,5 @@
 # CSE-11 Programming Assignment 3
-### Due Date: Thursday, July 8, 11:59PM Pacific Time
+### Due Date: Thursday, August 12, 11:59PM Pacific Time
 ## Learning Goals
 - Practice writing classes and conditionals
 - Do some open-ended exploration of Java features
